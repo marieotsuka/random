@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Overlap Rectangles</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/overlap_rect.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type = "text/css">
+
+		.shape {
+			mix-blend-mode: difference;
+		}
+
+		div.inside:nth-child(odd){
+			animation: scale .8s ease alternate 1 forwards;	
+		}
+
+
+		div.inside:nth-child(3n+3) {
+			animation: swing .8s ease 1 forwards;
+		}
+
+		@keyframes swing {
+			0% { transform: rotate(0) }
+			100% { transform: rotate(180deg) }
+		}
+
+		@keyframes scale {
+			0% { transform: scale(0,0)}
+			100% { transform: scale(1,1) }
+		}
+
+	</style> 
+
+</head>
+<body>
+	<a href="index.html"><span id="home">¤</span></a>
+	<a href="overlap_rect2.html"><div class="graphic">
+	</div></a>
+</body>
+</html>

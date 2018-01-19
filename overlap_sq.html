@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Overlap Squares</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/overlap_sq.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type = "text/css">
+
+		.shape {
+			mix-blend-mode: difference;
+		}
+
+		div.inside:nth-child(odd){
+			animation: scale 1s ease 1 forwards;	
+		}
+
+		@keyframes scale {
+			0% { transform: scale(0,0)}
+			100% { transform: scale(1.5,1.5) }
+		}
+
+	</style> 
+
+</head>
+<body>
+	<a href="index.html"><span id="home">¤</span></a>
+	<a href="circles.html"><div class="graphic">
+	</div></a>
+</body>
+</html>

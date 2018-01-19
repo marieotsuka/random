@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Overlap Rectangles Vertical</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/overlap_rect2.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type = "text/css">
+		.shape {
+			mix-blend-mode: difference;
+		}
+
+		div.inside:nth-child(odd){
+			animation: move 1s ease 1 forwards;
+		}
+
+		@keyframes move {
+			0% { transform: translateX(300px)}
+			100% { transform: translateX(0px)}
+		}
+
+	</style> 
+
+</head>
+<body>
+	<a href="index.html"><span id="home">¤</span></a>
+	<a href="rectangle.html"><div class="graphic">
+	</div></a>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Random Compositions</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		body{
+			max-width: 80%;
+			margin: 50px auto;
+			padding-left: 5%;
+			font-family: "Space Mono", sans-serif;
+		}
+
+		h1,p{
+			font-size: 1rem;
+			font-weight: normal;
+			margin: 0;
+			line-height: 1.5;
+		}
+
+		.container {
+			display: flex;
+			align-items: center;
+			align-content: flex-start;
+			flex-wrap: wrap;
+			margin-top: 5%;
+		}
+		.container a{
+			display: block;
+			width: 20%;
+			float: left;
+			margin: 0 1rem 1rem 0;
+		}
+
+		.container a img{
+			width: 100%;
+		}
+
+		.container a img:hover{
+			filter: none;
+
+		}
+
+
+		@media screen and (max-width: 500px){
+		  .container a{
+		    width: 100%;
+		    height: auto;
+		  }
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Random Color Compositions</h1>
+	<p>Generated with CSS and JavaScript | <a href="http://motsuka.com/">motsuka.com</a>
+
+	<div class="container">
+		<a href="rectangle.html"><img src="img/1.png"/></a>
+		<a href="squares.html"><img src="img/2.png"/></a>
+		<a href="arcs.html"><img src="img/3.png"/></a>
+		<a href="circles_sq.html"><img src="img/6.png"/></a>
+		<a href="overlap_sq.html"><img src="img/4.png"/></a>
+		<a href="circles.html"><img src="img/5.png"/></a>
+		<a href="overlap_rect.html"><img src="img/7.png"/></a>
+		<a href="overlap_rect2.html"><img src="img/8.png"/></a>
+	</div>
+</body>
+</html>
