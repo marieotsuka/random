@@ -19,7 +19,7 @@ var palette = [];
 $(document).ready(function(){
     var pageRefresh = setTimeout(function(){
           window.location.reload(1);
-    }, 2000);
+    }, 3000);
 
     $('body').keydown(function(e) {
        if(e.keyCode == 32){
